@@ -1,0 +1,43 @@
+/* selectors */
+
+/* tag selector or id selector or class selector {
+    property1:value1;
+
+} */
+
+/* Tag selector */
+h1{
+    color: tomato;
+/* primary color */
+}
+
+/* id selector # */
+#second {
+    color: #1d52a8 ;
+    /* hexa decimal color code #rrggbb*/
+}
+
+/* Class selector . */
+.cls{
+    color: #a30eee;
+    text-decoration: none;
+}
+/* RBG color code */
+#clr {
+    color: rgb(177, 46, 68);
+    text-align: right;
+}
+
+/* Hue-Saturation-Lightness HSL*/
+h2{
+    color: hsl(255, 0%, 100%);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    background-color: black;
+}

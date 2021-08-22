@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: #262626;
+    text-align: center;
+}
+
+.row1{
+    /* border: black solid 1px; */
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    float:left;
+}
+#box1{
+    background-color: rgb(235, 66, 44);
+    margin-left: 400px;
+}
+
+#box2{
+    background-color: chocolate;
+}
+
+#box3{
+    background-color: darkcyan;
+}
+
+#box4{
+    background-color: darkorchid;
+}
+
+#box5{
+    background-color: forestgreen;
+}

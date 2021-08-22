@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+header {
+    background-color: #5E068A;
+    height: 38px;
+}
+
+body{
+    height: 3000px;
+}
+.header-text {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+
+.header-text:hover{
+    color: white;
+}
+
+.txt-class li a {
+    font-family: 'Muli';
+    color: #2d3e50;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+.txt-class li a:hover {
+    color: #5E068A;
+}
+
+.car img{
+    height:500px;
+}
+
+.row h2:nth-child(1){
+    font-family: 'Muli';
+    font-weight: bolder;
+    color: #5e068a;
+}
+
+.row h2 span{
+    color:#9E6AB9;
+}
+
+.btn-query{
+    background-color: #5e068a;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-learn{
+    padding: 16px 27px;
+font-weight: 600;
+margin-top: 21px;
+border-radius: 50px;
+border: 2px solid #5e068a;
+background-color: #5e068a;
+color: white;
+}
+.btn-learn:hover{
+    background-color: white;
+    color: #5e068a;
+    border: 2px solid #5e068a;
+
+}
+
+.nav-icon{
+    color: #5E068A;
+    padding: 8px;
+    border: 3px solid #5e068a;
+    border-radius: 3px;
+}
