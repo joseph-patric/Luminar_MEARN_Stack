@@ -1,0 +1,1 @@
+// print numbers whose square value is within limit

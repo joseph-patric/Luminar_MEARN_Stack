@@ -3,19 +3,35 @@
 // Number /15 print fizzbuzz
 // change
 
-var num=10;
+// var num=15;
+
+// if (num%15==0)
+// {
+//     console.log("FizzBuzz");
+// }
+
+// else if (num%5==0)
+// {
+//     console.log("Buzz");
+// }
+
+// else if (num%3==0)
+// {
+//     console.log("Fizz");
+// }
+
+// Alternate method
+
+var num=15;
+var res="";
 
 if (num%3==0)
 {
-    console.log("Fizz");
+    res+="fizz"
 }
-
 if (num%5==0)
 {
-    console.log("Buzz");
+    res+="buzz"
 }
 
-if (num%15==0)
-{
-    console.log("FizzBuzz");
-}
+console.log(res);
