@@ -1,4 +1,4 @@
-var num=7;
+var num=9;
 
 for(i=1;i<=num;i++)
 {
@@ -7,11 +7,11 @@ for(i=1;i<=num;i++)
     {
         if(j==0|j==i-1|i==num)
         {
-            str=str+i+" ";
+            str+=i+" ";
         }
         else
         {
-            str=str+"  "
+            str+="  "
         }
          
     }
