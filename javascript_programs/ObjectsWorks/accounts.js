@@ -5,9 +5,9 @@ var datas=[
         {to:1001, amount:700, note:"ball"}
     ]},
     {acno:1001, ac_type:"savings", balance:6000, transactions:[
-        {to:1000, amount:550, note:"bill"},
+        {to:1000, amount:550, note:"bill1"},
         {to:1002, amount:900, note:"emi"},
-        {to:1002, amount:650, note:"bill"}
+        {to:1002, amount:650, note:"bill2"}
     ]},
     {acno:1002, ac_type:"savings", balance:8000, transactions:[
         {to:1001, amount:600, note:"clothing"},
