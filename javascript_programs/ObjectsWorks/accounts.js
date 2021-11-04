@@ -35,6 +35,21 @@ var datas=[
 // datas.map(acc=>acc.transactions).filter(trans=>trans.forEach(credit=>credit.to==1000?console.log(credit):''))
 
 // payment history of 1001
-datas.map(acc=>acc.transactions).filter(trans=>trans.forEach(credit=>credit.to==1001?console.log(credit):''))
-datas.filter(acc=>acc.acno==1001).forEach(acc=>acc.transactions.map(acc=>console.log(acc)))
+// datas.map(acc=>acc.transactions).filter(trans=>trans.forEach(credit=>credit.to==1001?console.log(credit):''))
+// datas.filter(acc=>acc.acno==1001).forEach(acc=>acc.transactions.map(acc=>console.log(acc)))
 
+var history=[]
+
+for(let payments of datas){
+    for(let payment of payments.transactions){
+        if(payment.to==1000){
+            history.push(payment)
+        }
+        if(payments.acno==1000)
+        {
+            history.push(payment)
+        }
+    }
+}
+
+console.log(history);
