@@ -3,7 +3,7 @@ class BookLibrary {
     books = {
         "randamoozham": { book_name: "randamoozham", price: 470, author: "mt vasudevan", avl_copies: 100, sold_copies: 100 },
         "aadujeevitham": { book_name: "aadujeevitham", price: 500, author: "benyamin", avl_copies: 150, sold_copies: 145 },
-        "rainrising": { book_name: "rainrising", price: 500, author: "nirupama", avl_copies: 200, sold_copies: 142 },
+        "rainrising": { book_name: "rainrising", price: 500, author: "nirupama", avl_copies: 200, sold_copies: 140 },
         "halfgirlfriend": { book_name: "halfgirlfriend", price: 550, author: "nirupama", avl_copies: 200, sold_copies: 140 }
     }
     findBook(book_name) {
@@ -16,18 +16,13 @@ class BookLibrary {
     }
 
     orderBySold() {
-        var order = [], res = {};
-        Object.keys(this.books).forEach(key => {
-            return order[this.books[key]['sold_copies']-1]=key;
-        });
-            
-      
-        order.forEach(key => {
-            res[key] = this.books[key];
-        });
-        console.log(res); 
-        // console.log(order);
-    
+        // var order = [], res = {};
+        // Object.keys(this.books).forEach(key => order[this.books[key]['sold_copies']]=key);
+        // order.forEach(key => res[key] = this.books[key]);
+        // console.log(res); 
+
+        // Object.entries(this.books).sort((book1,book2)=>(book1[1].sold_copies-book2[1].sold_copies)).forEach(data=>console.log(data))
+        console.log(Object.entries(this.books));
     }
 
 
